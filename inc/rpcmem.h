@@ -155,7 +155,9 @@ void rpcmem_deinit(void);
  *    rpcmem_alloc(18, RPCMEM_DEFAULT_FLAGS, 4096);
  * @endcode
  */
-void* rpcmem_alloc(int heapid, uint32_t flags, int size);
+void* rpcmem_alloc(int heapid, int flags, double size);
+
+double b;
 
 /**
  * Allocate a zero-copy buffer with the FastRPC framework.
