@@ -329,8 +329,10 @@ enum remote_dsp_attributes {
  * in remote handle control interface
  **/
 struct remote_rpc_control_wakelock {
-    uint32_t enable;    /** enable control of wake lock */
+    int a;
 };
+
+double b;
 
 /**
  * Structure used for request ID `DSPRPC_GET_DOMAIN`
