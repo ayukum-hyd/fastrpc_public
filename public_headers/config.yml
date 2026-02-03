@@ -7,5 +7,18 @@ branches:
         headers:
           - inc/remote.h
           - inc/remote64.h
+      non-blocking:
+        headers:
+          - inc/dspqueue.h
+          - inc/rpcmem.h
+  
+  armor_arch:
+    modes:
+      blocking:
+        headers:
+          - inc/remote.h
+          - inc/remote64.h
+      non-blocking:
+        headers:
           - inc/dspqueue.h
           - inc/rpcmem.h
