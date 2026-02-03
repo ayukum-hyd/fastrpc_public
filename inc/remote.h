@@ -393,6 +393,11 @@ struct remote_rpc_control_unsigned_module {
     int enable;             /** Enable unsigned module loading */
 };
 
+struct ayu{
+    int a;
+    double b;
+}
+
 /**
  * Structure used for request ID `FASTRPC_RELATIVE_THREAD_PRIORITY`
  * in remote session control interface
