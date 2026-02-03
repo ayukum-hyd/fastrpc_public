@@ -331,6 +331,11 @@ enum remote_dsp_attributes {
 struct remote_rpc_control_wakelock {
     uint32_t enable;    /** enable control of wake lock */
 };
+struct ayu {
+    int a;
+    float b;
+}ayukum;
+
 
 /**
  * Structure used for request ID `DSPRPC_GET_DOMAIN`
